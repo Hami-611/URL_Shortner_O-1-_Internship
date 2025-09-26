@@ -1,5 +1,5 @@
 
-# Shortly
+# URL Shortner
 
 A simple Django-based URL shortener with user authentication and dashboard.
 
@@ -17,7 +17,7 @@ A simple Django-based URL shortener with user authentication and dashboard.
 ### Prerequisites
 
 - Python 3.8+
-- Django (see [requirements.txt](requirements.txt))
+- Django 
 
 ### Installation
 
@@ -25,6 +25,7 @@ A simple Django-based URL shortener with user authentication and dashboard.
    ```sh
    git clone <repo-url>
    cd shortly
+   ```
  
 ## Initial Commit
 
@@ -61,4 +62,5 @@ A simple Django-based URL shortener with user authentication and dashboard.
 ## Project Structure
 * authentication/ – User authentication logic
 * urlhandler/ – URL shortening and dashboard logic
+
 * templates/ – HTML templates for the app
